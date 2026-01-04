@@ -103,6 +103,7 @@ Edit `config/gcs_config.json`:
   "raw_prefix": "weather/raw/",
   "curated_prefix": "weather/curated/"
 }
+```
 
 ### 6. Running the Pipeline
 Fetch weather for a city:
@@ -118,7 +119,7 @@ gs://your-bucket/weather/raw/weather_Hartford_CT_raw.json
 gs://your-bucket/weather/curated/weather_Hartford_CT_curated.parquet
 
 
-🧩 Extensibility
+## Extensibility
 This project is designed to grow.
 You can easily extend it to:
 
@@ -128,10 +129,10 @@ BigQuery ingestion
 S3 / Azure Data Lake support
 Docker + Cloud Run deployment
 
-📜 License
+## License
 This project is open for personal and educational use.
 
-👩‍💻 Author
+## Author
 Jayanthi Vaiyapuri  
 Senior Data Engineer | Cloud & AI Enthusiast
 
