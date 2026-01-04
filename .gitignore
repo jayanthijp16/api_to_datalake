@@ -1,0 +1,33 @@
+
+# 🗂️ **.gitignore (Clean, Python + VS Code + Data Lake)**
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Data lake outputs
+data_lake/raw/*.json
+data_lake/curated/*.parquet
+
+# Credentials (never commit!)
+*.json
+!config/weather_config.json
+!config/gcs_config.json
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+{
+  "bucket_name": "storagebucket_pythonai",
+  "raw_prefix": "weather/raw/",
+  "curated_prefix": "weather/curated/"
+}

@@ -1,0 +1,17 @@
+{
+  "base_url": "https://api.open-meteo.com/v1/forecast",
+  "endpoint": "",
+  "params": {
+    "latitude": 41.7658,
+    "longitude": -72.6734,
+    "hourly": "temperature_2m,relativehumidity_2m,windspeed_10m",
+    "timezone": "America/New_York"
+  },
+  "pagination": {
+    "enabled": false
+  },
+  "data_lake": {
+    "raw_path": "data_lake/raw/weather_raw.json",
+    "curated_path": "data_lake/curated/weather_curated.parquet"
+  }
+}
